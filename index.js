@@ -36,7 +36,7 @@ var auth = function (req, res, next) {
 }
 
 app.get('/*', auth, s3Proxy({
-    bucket: 's3_bucket',
+    bucket: s3_bucket,
     accessKeyId: s3_access_key,
     secretAccessKey: s3_secret_key,
     overrideCacheControl: 'max-age=100000'
