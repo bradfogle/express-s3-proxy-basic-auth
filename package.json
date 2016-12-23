@@ -1,0 +1,28 @@
+{
+  "name": "express-s3-proxy-basic-auth",
+  "version": "0.1",
+  "description": "A simple reverse proxy for accessing objects stored in AWS S3 through Basic Auth, using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "s3-proxy": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradfogle/express-s3-proxy-basic-auth"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
