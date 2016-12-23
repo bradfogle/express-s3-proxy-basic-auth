@@ -2,5 +2,6 @@
   "name": "express-s3-proxy-basic-auth",
   "description": "A barebones reverse proxy, using Express, for retrieving private objects from AWS S3 through basic auth",
   "repository": "https://github.com/bradfogle/express-s3-proxy-basic-auth",
-  "keywords": ["node", "express", "static", "aws", "s3", "basic auth"]
+  "keywords": ["node", "express", "static", "aws", "s3", "basic auth"],
+  "buildpacks": [{"url": "heroku/node"}]
 }
